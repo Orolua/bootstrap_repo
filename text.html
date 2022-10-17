@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY ClASSWORK</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg bg-success">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Open modal for Parent's Address</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Home Address</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Parent's Address:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Parent's Email:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="b6 (2).jpg" class="d-block w-100" alt="">
+        <div class="carousel-caption">
+          <h5>IMAGE 1</h5>
+          <p>School children are always happy</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="istockphoto-1402700291-170667a.jpg" class="d-block w-100" alt="">
+        <div class="carousel-caption">
+          <h5>IMAGE 2</h5>
+          <p>We have the best teaching environment.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="school-bus-vector-illustration_110233-1498.webp" class="d-block w-100" alt="">
+        <div class="carousel-caption">
+          <h5>IMAGE 3</h5>
+          <p>There are conducive teaching facilities</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="row bg-secondary" >
+  
+    <div class="col-4 p-5 border border-success">
+<div class="col-6">
+        <form action="post" class="was-validated">
+         
+          <div>
+            
+          </div>
+        <div class="mb-3"><label class="form-label" for="email">Email Address</label><input type="email" class="form-control form-control-sm" placeholder="Enter valid email" name="email" id="email"></div>
+        <div class="mb-3"><label class="form-label" for="Password">Password</label><input type="password" class="form-control form-control-lg" placeholder="Enter password" name="password" id="password" required><div class="invalid-feedback">please enter a password</div></div>
+        
+                
+                  <div class="input-group mb-3" bg-dark>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                  </div>
+                  
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <label for="floatinginput"> Confirm Password</label>
+                  </div>
+        <button class="btn btn-outline-info btn-sm w-100 mb-3">Log in</button>
+
+    </form>
+  </div>
+</div>
+
+<div class="col-8">
+    <h1>Registration Form</h1>
+    <form action="post" class="was-validated">
+        <div class="alert alert-success" role="alert">
+          A simple success alert—check it out!
+        </div>          
+        <div>
+          <div class="alert alert-dismissible fade show">
+            show random text
+            <button class="btn-close" data-bs-dismis="alert">
+            </button>
+
+          </div>
+        </div>
+        <div class="mb-3"><label class="form-label" for="name">Firstname</label><input type="name" class="form-control form-control-sm" placeholder="Enter Firstname" name="name" id="name"></div>
+      <div class="mb-3"><label class="form-label" for="name">lastname</label><input type="password" class="form-control form-control-sm" placeholder="Enter lastname" name="lastname" id="lastname" required><div class="invalid-feedback">please enter a password</div>
+      <div class="mb-3"><label class="form-label" for="email">Email Address</label><input type="email" class="form-control form-control-sm" placeholder="Enter valid email" name="email" id="email"></div>
+      <div class="mb-3"><label class="form-label" for="Password">Password</label><input type="password" class="form-control form-control-sm" placeholder="Enter password" name="password" id="password" required><div class="invalid-feedback">please enter a password</div></div>
+      <div class="mb-3"><label class="form-label" for="Color">Color</label>
+          <input type="color" class="form-control form-control-color" placeholder="Color" name="password" id="color"></div>
+          <div class="mb-3"><label class="form-label" for="Best-meal">Best-meal</label>
+              <select name="Best-meal" id="Best-meal" class="form-select">
+                  <option selected="">Choose a meal...</option>
+                  <option value="Millet">Millet</option>
+                  <option value="Yam"> Yam</option>
+                  <option value="Beans"> Beans</option>
+                  <option value="Rice"> Rice</option>
+                  <option value="Kpomo">Oats</option></select>
+          </div>
+          <div class="mb-3"> <h6>Educational Qualification</h6>
+          <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="qualification" id="fslc"><label for="fslc">Primary 6</label>
+          </div>
+          <div class="form-check">
+             <input class="form-check-input" type="checkbox" name="qualification" id="WAEC" checked> <label for="WAEC">WAEC</label>
+          </div>
+          <div class="form-check">
+             <input class="form-check-input" type="checkbox" name="qualification" id="ND"> <label for="ND">National Diploma</label>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="qualification" id="HND"><label for="HND">Higher Diploma</label>
+          </div><div class="form-check">
+              <input class="form-check-input" type="checkbox" name="qualification" id="B.Sc."><label for="B.Sc.">Bachelors Degree</label>
+          </div>
+          </div>
+          <div class="mb-3"> <h6>Gender</h6>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Gender" id="Male"><label for="Male">Male</label>
+              </div>
+              <div class="form-check">
+                 <input class="form-check-input" type="radio" name="Gender" id="Female"> <label for="Female">Female</label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Gender" id="confused" > <label for="Confused">Confused</label>
+               </div>
+               
+               <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" checked>
+                  <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+                </div>
+                <div class="input-group mb-3" bg-dark>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                  <span class="input-group-text">@</span>
+                  <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                </div>
+                
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                  <label for="floatinginput">Password</label>
+                </div>
+                
+      <div class="mb-3">
+          <label for="file">Profile Picture</label>
+          <input type="file" name="image" id="file" class="form-control">
+      </div>
+      <a href="" class="btn btn-outline-info btn-sm w-100 mb-3">Go back</a>
+      <button class="btn btn-outline-info btn-sm w-100 mb-3">Register</button>
+
+  </form>
+</div>
+</div>
+
+
+
+
+<script src="js/bootstrap.js">
+</script>
+</body>
+</html>
